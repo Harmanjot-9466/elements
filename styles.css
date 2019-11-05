@@ -1,0 +1,82 @@
+/* Elements */
+
+body {
+	background-color:black;
+	color: red;
+	font-family: sans-serif;
+	line-height: 0;
+    font-size: 6em;
+    margin: 5px;
+    padding: 0;
+}
+
+.line {
+	height: 1px;
+	width: 100%;
+	background-color: steelblue;
+	transform: rotate(-45deg);
+}
+
+.line-2 {
+	transform: rotate(5deg);
+	position: absolute;
+	top: 5em;
+}
+.square {
+	background-color: #F44336;
+	height: 300px;
+	width: 300px;
+	border-radius: 0%;
+	position: absolute;
+	left: 1%;
+	top: 30%;
+}
+.triangle{
+	width: 3em;
+	height: 5em;
+	background-color: yellow;
+	position: absolute;
+	left: 70%;
+	top: 10%;
+
+}
+
+.circle {
+	width: 6em;
+	height: 7em;
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	left: 10%;
+	top: 2%;
+
+}
+.sphere {
+	background-color: #009688;
+	width: 5em;
+	height: 6em;
+    border-radius: 50%;
+    position: absolute;
+	left: 30%;
+	top: 10%;
+    box-shadow: -20px -20px 50px black inset;
+
+}
+.circle-2{
+	width: 3em;
+	height: 3em;
+	background-color: forestgreen;
+	border-radius: 50%;
+	position: absolute;
+	left: 53%;
+	top: 17%;
+}
+.circle-3{
+	width: 7em;
+	height: 3em;
+	background-color: green;
+	border-radius: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
